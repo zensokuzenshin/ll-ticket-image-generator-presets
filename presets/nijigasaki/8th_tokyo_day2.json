@@ -9,7 +9,7 @@
   "marL": 155,
   "marR": 155,
   "bg": "#ffffff",
-  "font": "'Noto Sans JP'",
+  "font": "'hiragino-kaku-gothic-pron','Hiragino Kaku Gothic ProN','Noto Sans JP'",
   "images": [
     {
       "tag": "img_logo",
