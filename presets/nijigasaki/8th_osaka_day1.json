@@ -1,0 +1,169 @@
+{
+  "name": {
+        "ko": "8th Live! TOKIMEKI Express 오사카 Day 1",
+        "ja": "8th Live! TOKIMEKI Express 大阪 Day 1",
+        "en": "8th Live! TOKIMEKI Express Osaka Day 1"
+      },
+  "cw": 2000,
+  "ch": 3200,
+  "marL": 155,
+  "marR": 155,
+  "bg": "#ffffff",
+  "font": "'Noto Sans JP'",
+  "images": [
+    {
+      "tag": "img_logo",
+      "src": "logos/nijigasaki/8th.jpg",
+      "x": 156,
+      "y": 125,
+      "w": 1687,
+      "h": 1211
+    }
+  ],
+  "fields": [
+    {
+      "role": "show",
+      "tag": "fld_show",
+      "text": "6月6日（土）17:00公演",
+      "x": 155,
+      "y": 1401,
+      "size": 80,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 109,
+      "wrap": true,
+      "multiline": false
+    },
+    {
+      "role": "date",
+      "tag": "fld_date",
+      "text": "2026年6月6日（土）17:00",
+      "x": 155,
+      "y": 1542,
+      "size": 169,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 238,
+      "wrap": true,
+      "multiline": false
+    },
+    {
+      "role": "times",
+      "tag": "fld_times",
+      "text": "[開場] 16:00　[開演] 17:00",
+      "x": 155,
+      "y": 2007,
+      "size": 80,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 109,
+      "wrap": true,
+      "multiline": false
+    },
+    {
+      "role": "none",
+      "tag": "fld_venue",
+      "text": "大阪城ホール\n大阪府大阪市中央区大阪城3-1",
+      "x": 155,
+      "y": 2181,
+      "size": 80,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 131,
+      "wrap": true,
+      "multiline": true
+    },
+    {
+      "role": "none",
+      "tag": "fld_seattypelbl",
+      "text": "席種",
+      "x": 155,
+      "y": 2409,
+      "size": 79,
+      "weight": 700,
+      "color": "#757575",
+      "lh": 109,
+      "wrap": false,
+      "multiline": false,
+      "attr": true
+    },
+    {
+      "role": "none",
+      "tag": "fld_seattype",
+      "text": "全席指定",
+      "x": 155,
+      "y": 2525,
+      "size": 120,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 140,
+      "wrap": true,
+      "multiline": false,
+      "shrink": true,
+      "attr": true
+    },
+    {
+      "role": "none",
+      "tag": "fld_seatlbl",
+      "text": "座席番号",
+      "x": 155,
+      "y": 2673,
+      "size": 79,
+      "weight": 700,
+      "color": "#757575",
+      "lh": 109,
+      "wrap": false,
+      "multiline": false,
+      "attr": true
+    },
+    {
+      "role": "none",
+      "tag": "fld_seatval",
+      "text": "",
+      "x": 155,
+      "y": 2789,
+      "size": 120,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 140,
+      "wrap": true,
+      "multiline": false,
+      "shrink": true,
+      "attr": true
+    },
+    {
+      "role": "none",
+      "tag": "fld_namelbl",
+      "text": "氏名",
+      "x": 155,
+      "y": 2936,
+      "size": 79,
+      "weight": 700,
+      "color": "#757575",
+      "lh": 109,
+      "wrap": false,
+      "multiline": false,
+      "attr": true
+    },
+    {
+      "role": "none",
+      "tag": "fld_nameval",
+      "text": "",
+      "x": 155,
+      "y": 3052,
+      "size": 120,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 140,
+      "wrap": true,
+      "multiline": true,
+      "shrink": true,
+      "attr": true
+    }
+  ],
+  "attr": {
+    "top": 2409,
+    "labelGap": 116,
+    "pairGap": 148
+  }
+}

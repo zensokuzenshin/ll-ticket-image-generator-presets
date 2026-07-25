@@ -1,0 +1,37 @@
+name: Sync to R2
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'logos/**'
+      - 'presets/**'
+      - '.github/workflows/sync-r2.yml'
+  workflow_dispatch:
+
+concurrency:
+  group: sync-r2
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Install rclone
+        run: sudo apt-get update && sudo apt-get install -y rclone
+
+      - name: Sync logos/ and presets/ to R2
+        env:
+          RCLONE_CONFIG_R2_TYPE: s3
+          RCLONE_CONFIG_R2_PROVIDER: Cloudflare
+          RCLONE_CONFIG_R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          RCLONE_CONFIG_R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          RCLONE_CONFIG_R2_ENDPOINT: https://${{ secrets.R2_ACCOUNT_ID }}.r2.cloudflarestorage.com
+          # scoped R2 tokens can't create/head buckets; skip that check
+          RCLONE_CONFIG_R2_NO_CHECK_BUCKET: 'true'
+          R2_BUCKET: ${{ secrets.R2_BUCKET }}
+        run: |
+          rclone sync logos/   "r2:${R2_BUCKET}/logos/"   --checksum --verbose
+          rclone sync presets/ "r2:${R2_BUCKET}/presets/" --checksum --verbose

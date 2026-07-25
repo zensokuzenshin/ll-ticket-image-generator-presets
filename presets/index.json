@@ -1,0 +1,35 @@
+{
+  "groups": [
+    {
+      "name": {
+        "ko": "니지가사키 학원 스쿨 아이돌 동호회",
+        "ja": "虹ヶ咲学園スクールアイドル同好会",
+        "en": "Nijigasaki High School Idol Club"
+      },
+      "series": [
+        {
+          "name": "8th Live! TOKIMEKI Express",
+          "presets": [
+            "nijigasaki/8th_osaka_day1.json",
+            "nijigasaki/8th_osaka_day2.json"
+          ]
+        }
+      ]
+    },
+    {
+      "name": {
+        "ko": "하스노소라 여학원 스쿨 아이돌 클럽",
+        "ja": "蓮ノ空女学院スクールアイドルクラブ",
+        "en": "Hasunosora Girls' High School Idol Club"
+      },
+      "series": [
+        {
+          "name": "5th Live Tour ~4Pair Power Spread!!!!~",
+          "presets": [
+            "hasunosora/5th_aichi_day1.json"
+          ]
+        }
+      ]
+    }
+  ]
+}

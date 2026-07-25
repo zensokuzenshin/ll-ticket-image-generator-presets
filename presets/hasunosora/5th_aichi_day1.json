@@ -1,0 +1,140 @@
+{
+  "name":{
+        "ko": "5th Live Tour ~4Pair Power Spread!!!!~ 아이치 Day 1",
+        "ja": "5th Live Tour ~4Pair Power Spread!!!!~ 愛知 Day 1",
+        "en": "5th Live Tour ~4Pair Power Spread!!!!~ Aichi Day 1"
+      },
+  "cw": 2000,
+  "ch": 3200,
+  "marL": 155,
+  "marR": 155,
+  "bg": "#ffffff",
+  "font": "'Noto Sans JP'",
+  "images": [
+    {
+      "tag": "img_logo",
+      "src": "logos/hasunosora/5th.jpg",
+      "x": -63,
+      "y": 115,
+      "w": 2108,
+      "h": 1372
+    }
+  ],
+  "fields": [
+    {
+      "role": "show",
+      "tag": "fld_show",
+      "text": "11月8日（土）17:00公演",
+      "x": 155,
+      "y": 1401,
+      "size": 80,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 109,
+      "wrap": true,
+      "multiline": false
+    },
+    {
+      "role": "date",
+      "tag": "fld_date",
+      "text": "2025年11月8日（土）17:00",
+      "x": 155,
+      "y": 1542,
+      "size": 169,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 238,
+      "wrap": true,
+      "multiline": false
+    },
+    {
+      "role": "times",
+      "tag": "fld_times",
+      "text": "[開場] 16:00　[開演] 17:00",
+      "x": 155,
+      "y": 2007,
+      "size": 80,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 109,
+      "wrap": true,
+      "multiline": false
+    },
+    {
+      "role": "none",
+      "tag": "fld_venue",
+      "text": "Aichi Sky Expo（愛知県国際展示場）ホールA\n愛知県常滑市セントレア5丁目",
+      "x": 155,
+      "y": 2181,
+      "size": 80,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 131,
+      "wrap": true,
+      "multiline": true
+    },
+    {
+      "role": "none",
+      "tag": "fld_seatlbl",
+      "text": "座席番号",
+      "x": 155,
+      "y": 2447,
+      "size": 79,
+      "weight": 700,
+      "color": "#757575",
+      "lh": 109,
+      "wrap": false,
+      "multiline": false,
+      "attr": true
+    },
+    {
+      "role": "none",
+      "tag": "fld_seatval",
+      "text": "",
+      "x": 155,
+      "y": 2566,
+      "size": 120,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 140,
+      "wrap": true,
+      "multiline": false,
+      "shrink": true,
+      "attr": true
+    },
+    {
+      "role": "none",
+      "tag": "fld_namelbl",
+      "text": "氏名",
+      "x": 155,
+      "y": 2739,
+      "size": 79,
+      "weight": 700,
+      "color": "#757575",
+      "lh": 109,
+      "wrap": false,
+      "multiline": false,
+      "attr": true
+    },
+    {
+      "role": "none",
+      "tag": "fld_nameval",
+      "text": "",
+      "x": 155,
+      "y": 2852,
+      "size": 120,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 140,
+      "wrap": true,
+      "multiline": true,
+      "shrink": true,
+      "attr": true
+    }
+  ],
+  "attr": {
+    "top": 2447,
+    "labelGap": 119,
+    "pairGap": 173
+  }
+}
