@@ -11,7 +11,9 @@
           "name": "8th Live! TOKIMEKI Express",
           "presets": [
             "nijigasaki/8th_osaka_day1.json",
-            "nijigasaki/8th_osaka_day2.json"
+            "nijigasaki/8th_osaka_day2.json",
+            "nijigasaki/8th_tokyo_day1.json",
+            "nijigasaki/8th_tokyo_day2.json"
           ]
         }
       ]
@@ -26,7 +28,8 @@
         {
           "name": "5th Live Tour ~4Pair Power Spread!!!!~",
           "presets": [
-            "hasunosora/5th_aichi_day1.json"
+            "hasunosora/5th_aichi_day1.json",
+            "hasunosora/5th_aichi_day2.json"
           ]
         }
       ]
