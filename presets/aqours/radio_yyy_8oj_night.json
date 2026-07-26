@@ -1,0 +1,141 @@
+{
+  "name": {
+    "ko": "하치오지 저녁 공연",
+    "ja": "八王子 夜公演",
+    "en": "Hachioji Evening Show"
+  },
+  "cw": 2000,
+  "ch": 3200,
+  "marL": 145,
+  "marR": 145,
+  "bg": "#ffffff",
+  "font": "'hiragino-kaku-gothic-pron','Hiragino Kaku Gothic ProN','Noto Sans JP'",
+  "images": [
+    {
+      "tag": "img_logo",
+      "src": "logos/aqours/radio_yyy_8oj.jpg",
+      "x": 253,
+      "y": 140,
+      "w": 1496,
+      "h": 1714
+    }
+  ],
+  "fields": [
+    {
+      "role": "show",
+      "tag": "fld_show",
+      "text": "ラブライブ！サンシャイン!! Aqours浦の星女学院RADIO!!!JMA出張放送局\n〜バブ卒大集合！ラジオとライブでわいわいわい〜 in 8OJ",
+      "x": 145,
+      "y": 1874,
+      "size": 58,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 92,
+      "wrap": false,
+      "multiline": true,
+      "shrink": true
+    },
+    {
+      "role": "date",
+      "tag": "fld_date",
+      "text": "2023年6月24日（土）\n19:00",
+      "x": 145,
+      "y": 2046,
+      "size": 122,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 135,
+      "wrap": true,
+      "multiline": true
+    },
+    {
+      "role": "none",
+      "tag": "fld_times",
+      "text": "[開場] 18:00　[開演] 19:00",
+      "x": 145,
+      "y": 2328,
+      "size": 58,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 92,
+      "wrap": true,
+      "multiline": false
+    },
+    {
+      "role": "none",
+      "tag": "fld_venue",
+      "text": "J:COMホール八王子\n東京都八王子市子安町４丁目７−１ サザンスカイタワー八王子 ４F",
+      "x": 145,
+      "y": 2416,
+      "size": 58,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 91,
+      "wrap": true,
+      "multiline": true
+    },
+    {
+      "role": "none",
+      "tag": "fld_seatlbl",
+      "text": "座席番号",
+      "x": 145,
+      "y": 2600,
+      "size": 57,
+      "weight": 700,
+      "color": "#757575",
+      "lh": 78,
+      "wrap": false,
+      "multiline": false,
+      "attr": 1
+    },
+    {
+      "role": "none",
+      "tag": "fld_seatval",
+      "text": "",
+      "x": 145,
+      "y": 2700,
+      "size": 86,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 117,
+      "wrap": true,
+      "multiline": false,
+      "shrink": true,
+      "attr": 1
+    },
+    {
+      "role": "none",
+      "tag": "fld_namelbl",
+      "text": "氏名",
+      "x": 145,
+      "y": 2850,
+      "size": 57,
+      "weight": 700,
+      "color": "#757575",
+      "lh": 78,
+      "wrap": false,
+      "multiline": false,
+      "attr": 2
+    },
+    {
+      "role": "none",
+      "tag": "fld_nameval",
+      "text": "",
+      "x": 145,
+      "y": 2950,
+      "size": 86,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 117,
+      "wrap": true,
+      "multiline": true,
+      "shrink": true,
+      "attr": 2
+    }
+  ],
+  "attr": {
+    "top": 2600,
+    "labelGap": 100,
+    "pairGap": 150
+  }
+}

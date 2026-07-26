@@ -1,0 +1,136 @@
+{
+  "name": "Day 2",
+  "cw": 2000,
+  "ch": 3200,
+  "marL": 155,
+  "marR": 155,
+  "bg": "#ffffff",
+  "font": "'hiragino-kaku-gothic-pron','Hiragino Kaku Gothic ProN','Noto Sans JP'",
+  "images": [
+    {
+      "tag": "img_logo",
+      "src": "logos/aqours/finale.jpg",
+      "x": 157,
+      "y": 231,
+      "w": 1687,
+      "h": 978
+    }
+  ],
+  "fields": [
+    {
+      "role": "show",
+      "tag": "fld_show",
+      "text": "ラブライブ！サンシャイン!!\nAqours Finale LoveLive! 〜永久stage〜",
+      "x": 155,
+      "y": 1286,
+      "size": 80,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 112,
+      "wrap": true,
+      "multiline": true
+    },
+    {
+      "role": "date",
+      "tag": "fld_date",
+      "text": "2025年6月22日（日）17:00",
+      "x": 155,
+      "y": 1541,
+      "size": 169,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 225,
+      "wrap": true,
+      "multiline": false
+    },
+    {
+      "role": "none",
+      "tag": "fld_times",
+      "text": "[開場] 15:00　[開演] 17:00",
+      "x": 155,
+      "y": 2017,
+      "size": 80,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 112,
+      "wrap": true,
+      "multiline": false
+    },
+    {
+      "role": "none",
+      "tag": "fld_venue",
+      "text": "ベルーナドーム\n埼玉県所沢市上山口2135",
+      "x": 155,
+      "y": 2177,
+      "size": 80,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 134,
+      "wrap": true,
+      "multiline": true
+    },
+    {
+      "role": "none",
+      "tag": "fld_seatlbl",
+      "text": "座席番号",
+      "x": 155,
+      "y": 2448,
+      "size": 79,
+      "weight": 700,
+      "color": "#757575",
+      "lh": 107,
+      "wrap": false,
+      "multiline": false,
+      "attr": true
+    },
+    {
+      "role": "none",
+      "tag": "fld_seatval",
+      "text": "",
+      "x": 155,
+      "y": 2568,
+      "size": 120,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 163,
+      "wrap": true,
+      "multiline": false,
+      "shrink": true,
+      "attr": true
+    },
+    {
+      "role": "none",
+      "tag": "fld_namelbl",
+      "text": "氏名",
+      "x": 155,
+      "y": 2717,
+      "size": 79,
+      "weight": 700,
+      "color": "#757575",
+      "lh": 107,
+      "wrap": false,
+      "multiline": false,
+      "attr": true
+    },
+    {
+      "role": "none",
+      "tag": "fld_nameval",
+      "text": "",
+      "x": 155,
+      "y": 2837,
+      "size": 120,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 163,
+      "wrap": true,
+      "multiline": true,
+      "shrink": true,
+      "attr": true
+    }
+  ],
+  "attr": {
+    "top": 2448,
+    "labelGap": 120,
+    "pairGap": 149
+  }
+}

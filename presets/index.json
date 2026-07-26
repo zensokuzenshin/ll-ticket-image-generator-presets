@@ -1,12 +1,52 @@
 {
   "groups": [
     {
+      "name": "Aqours",
+      "series": [
+        {
+          "name": "Aqours EXTRA LoveLive! 2023 ~It's a 無限大☆WORLD~",
+          "presets": [
+            "aqours/extra2023_valentine_day1.json",
+            "aqours/extra2023_valentine_day2.json"
+          ]
+        },
+        {
+          "name": "Aqours浦の星女学院RADIO!!! JMA出張放送局 バブ卒大集合！ラジオとライブでわいわいわい",
+          "presets": [
+            "aqours/radio_yyy_8oj_day.json",
+            "aqours/radio_yyy_8oj_night.json"
+          ]
+        },
+        {
+          "name": "Aqours Finale LoveLive! ~永久stage~",
+          "presets": [
+            "aqours/finale_day1.json",
+            "aqours/finale_day2.json"
+          ]
+        }
+      ]
+    },
+    {
       "name": {
         "ko": "니지가사키 학원 스쿨 아이돌 동호회",
         "ja": "虹ヶ咲学園スクールアイドル同好会",
         "en": "Nijigasaki High School Idol Club"
       },
       "series": [
+        {
+          "name": "UNIT LIVE!",
+          "presets": [
+            "nijigasaki/unit_live_azuna_day1.json",
+            "nijigasaki/unit_live_azuna_day2.json"
+          ]
+        },
+        {
+          "name": "6th Live! I love You ⇆ You love Me",
+          "presets": [
+            "nijigasaki/6th_aichi_day1.json",
+            "nijigasaki/6th_aichi_day2.json"
+          ]
+        },
         {
           "name": "8th Live! TOKIMEKI Express",
           "presets": [
@@ -19,6 +59,18 @@
       ]
     },
     {
+      "name": "Liella!",
+      "series": [
+        {
+          "name": "6th LoveLive! Tour ~Let's be ONE~",
+          "presets": [
+            "liella/6th_tokyo_day1.json",
+            "liella/6th_tokyo_day2.json"
+          ]
+        }
+      ]
+    },
+    {
       "name": {
         "ko": "하스노소라 여학원 스쿨 아이돌 클럽",
         "ja": "蓮ノ空女学院スクールアイドルクラブ",
@@ -26,10 +78,44 @@
       },
       "series": [
         {
+          "name": "2nd Live Tour ~Blooming with ○○○~",
+          "presets": [
+            "hasunosora/2nd_chiba_day1.json",
+            "hasunosora/2nd_chiba_day2.json"
+          ]
+        },
+        {
+          "name": "3rd Live Tour TRY TRI UNITY!!!",
+          "presets": [
+            "hasunosora/3rd_fmt_day1.json",
+            "hasunosora/3rd_fmt_day2.json"
+          ]
+        },
+        {
           "name": "5th Live Tour ~4Pair Power Spread!!!!~",
           "presets": [
             "hasunosora/5th_aichi_day1.json",
             "hasunosora/5th_aichi_day2.json"
+          ]
+        }
+      ]
+    },
+    {
+      "name": {
+        "ko": "합동 공연",
+        "ja": "合同公演",
+        "en": "Joint Events"
+      },
+      "series": [
+        {
+          "name": {
+            "ko": "LoveLive! Series Presents 유닛 고시엔 2024",
+            "ja": "LoveLive! Series Presents ユニット甲子園 2024",
+            "en": "LoveLive! Series Presents Unit Koshien 2024"
+          },
+          "presets": [
+            "joints/unit_koshien_2024_day1.json",
+            "joints/unit_koshien_2024_day2.json"
           ]
         }
       ]

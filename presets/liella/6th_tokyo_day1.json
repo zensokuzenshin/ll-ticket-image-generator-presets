@@ -1,0 +1,140 @@
+{
+  "name": {
+    "ko": "도쿄 Day 1",
+    "ja": "東京 Day 1",
+    "en": "Tokyo Day 1"
+  },
+  "cw": 2000,
+  "ch": 3200,
+  "marL": 146,
+  "marR": 146,
+  "bg": "#ffffff",
+  "font": "'hiragino-kaku-gothic-pron','Hiragino Kaku Gothic ProN','Noto Sans JP'",
+  "images": [
+    {
+      "tag": "img_logo",
+      "src": "logos/liella/6th.jpg",
+      "x": 192,
+      "y": 174,
+      "w": 1705,
+      "h": 1339
+    }
+  ],
+  "fields": [
+    {
+      "role": "show",
+      "tag": "fld_show",
+      "text": "ラブライブ！スーパースター!! Liella! 6th LoveLive! Tour\n〜Let's be ONE〜＜東京公演＞",
+      "x": 146,
+      "y": 1519,
+      "size": 66,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 105,
+      "wrap": true,
+      "multiline": true
+    },
+    {
+      "role": "date",
+      "tag": "fld_date",
+      "text": "2025年3月8日（土）\n17:30",
+      "x": 146,
+      "y": 1738,
+      "size": 139,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 208,
+      "wrap": true,
+      "multiline": true
+    },
+    {
+      "role": "none",
+      "tag": "fld_times",
+      "text": "[開場] 16:00　[開演] 17:30",
+      "x": 146,
+      "y": 2143,
+      "size": 66,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 105,
+      "wrap": true,
+      "multiline": false
+    },
+    {
+      "role": "none",
+      "tag": "fld_venue",
+      "text": "国立代々木競技場　第一体育館\n東京都渋谷区神南2-1-1",
+      "x": 146,
+      "y": 2268,
+      "size": 66,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 104,
+      "wrap": true,
+      "multiline": true
+    },
+    {
+      "role": "none",
+      "tag": "fld_seatlbl",
+      "text": "座席番号",
+      "x": 146,
+      "y": 2539,
+      "size": 65,
+      "weight": 700,
+      "color": "#757575",
+      "lh": 88,
+      "wrap": false,
+      "multiline": false,
+      "attr": true
+    },
+    {
+      "role": "none",
+      "tag": "fld_seatval",
+      "text": "",
+      "x": 146,
+      "y": 2632,
+      "size": 98,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 133,
+      "wrap": true,
+      "multiline": false,
+      "shrink": true,
+      "attr": true
+    },
+    {
+      "role": "none",
+      "tag": "fld_namelbl",
+      "text": "氏名",
+      "x": 146,
+      "y": 2808,
+      "size": 65,
+      "weight": 700,
+      "color": "#757575",
+      "lh": 88,
+      "wrap": false,
+      "multiline": false,
+      "attr": true
+    },
+    {
+      "role": "none",
+      "tag": "fld_nameval",
+      "text": "",
+      "x": 146,
+      "y": 2901,
+      "size": 98,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 133,
+      "wrap": true,
+      "multiline": true,
+      "shrink": true,
+      "attr": true
+    }
+  ],
+  "attr": {
+    "top": 2539,
+    "labelGap": 93,
+    "pairGap": 176
+  }
+}

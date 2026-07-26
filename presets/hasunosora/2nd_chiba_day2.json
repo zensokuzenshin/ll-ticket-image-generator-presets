@@ -1,0 +1,140 @@
+{
+  "name": {
+    "ko": "치바 Day 2",
+    "ja": "千葉 Day 2",
+    "en": "Chiba Day 2"
+  },
+  "cw": 2000,
+  "ch": 3200,
+  "marL": 137,
+  "marR": 137,
+  "bg": "#ffffff",
+  "font": "'hiragino-kaku-gothic-pron','Hiragino Kaku Gothic ProN','Noto Sans JP'",
+  "images": [
+    {
+      "tag": "img_logo",
+      "src": "logos/hasunosora/2nd.jpg",
+      "x": 98,
+      "y": 190,
+      "w": 1814,
+      "h": 928
+    }
+  ],
+  "fields": [
+    {
+      "role": "show",
+      "tag": "fld_show",
+      "text": "ラブライブ！蓮ノ空女学院スクールアイドルクラブ\n2nd Live Tour 〜Blooming with ○○○〜＜千葉公演＞",
+      "x": 137,
+      "y": 1245,
+      "size": 74,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 119,
+      "wrap": true,
+      "multiline": true
+    },
+    {
+      "role": "date",
+      "tag": "fld_date",
+      "text": "2024年4月21日（日）16:00",
+      "x": 137,
+      "y": 1609,
+      "size": 157,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 234,
+      "wrap": true,
+      "multiline": false
+    },
+    {
+      "role": "none",
+      "tag": "fld_times",
+      "text": "[開場] 15:00　[開演] 16:00",
+      "x": 137,
+      "y": 2068,
+      "size": 74,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 119,
+      "wrap": true,
+      "multiline": false
+    },
+    {
+      "role": "none",
+      "tag": "fld_venue",
+      "text": "幕張メッセ 国際展示場 1〜3ホール\n千葉県千葉市美浜区中瀬2-1",
+      "x": 137,
+      "y": 2208,
+      "size": 74,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 117,
+      "wrap": true,
+      "multiline": true
+    },
+    {
+      "role": "none",
+      "tag": "fld_seatlbl",
+      "text": "座席番号",
+      "x": 137,
+      "y": 2514,
+      "size": 73,
+      "weight": 700,
+      "color": "#757575",
+      "lh": 99,
+      "wrap": false,
+      "multiline": false,
+      "attr": true
+    },
+    {
+      "role": "none",
+      "tag": "fld_seatval",
+      "text": "",
+      "x": 137,
+      "y": 2619,
+      "size": 112,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 152,
+      "wrap": true,
+      "multiline": false,
+      "shrink": true,
+      "attr": true
+    },
+    {
+      "role": "none",
+      "tag": "fld_namelbl",
+      "text": "氏名",
+      "x": 137,
+      "y": 2818,
+      "size": 73,
+      "weight": 700,
+      "color": "#757575",
+      "lh": 99,
+      "wrap": false,
+      "multiline": false,
+      "attr": true
+    },
+    {
+      "role": "none",
+      "tag": "fld_nameval",
+      "text": "",
+      "x": 137,
+      "y": 2923,
+      "size": 112,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 152,
+      "wrap": true,
+      "multiline": true,
+      "shrink": true,
+      "attr": true
+    }
+  ],
+  "attr": {
+    "top": 2514,
+    "labelGap": 105,
+    "pairGap": 199
+  }
+}

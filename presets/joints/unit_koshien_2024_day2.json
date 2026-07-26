@@ -1,0 +1,136 @@
+{
+  "name": "Day 2",
+  "cw": 2000,
+  "ch": 3200,
+  "marL": 147,
+  "marR": 147,
+  "bg": "#ffffff",
+  "font": "'hiragino-kaku-gothic-pron','Hiragino Kaku Gothic ProN','Noto Sans JP'",
+  "images": [
+    {
+      "tag": "img_logo",
+      "src": "logos/joints/unit_koshien_2024.jpg",
+      "x": 375,
+      "y": 253,
+      "w": 1253,
+      "h": 1042
+    }
+  ],
+  "fields": [
+    {
+      "role": "show",
+      "tag": "fld_show",
+      "text": "LoveLive! Series Presents ユニット甲子園 2024",
+      "x": 147,
+      "y": 1427,
+      "size": 75,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 102,
+      "wrap": true,
+      "multiline": false
+    },
+    {
+      "role": "date",
+      "tag": "fld_date",
+      "text": "2024年3月10日（日）16:30",
+      "x": 147,
+      "y": 1555,
+      "size": 159,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 237,
+      "wrap": true,
+      "multiline": false
+    },
+    {
+      "role": "none",
+      "tag": "fld_times",
+      "text": "[開場] 15:00　[開演] 16:30",
+      "x": 147,
+      "y": 2017,
+      "size": 75,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 102,
+      "wrap": true,
+      "multiline": false
+    },
+    {
+      "role": "none",
+      "tag": "fld_venue",
+      "text": "Kアリーナ横浜\n神奈川県横浜市西区みなとみらい6丁目2-14",
+      "x": 147,
+      "y": 2159,
+      "size": 75,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 118,
+      "wrap": true,
+      "multiline": true
+    },
+    {
+      "role": "none",
+      "tag": "fld_seatlbl",
+      "text": "座席番号",
+      "x": 147,
+      "y": 2468,
+      "size": 74,
+      "weight": 700,
+      "color": "#757575",
+      "lh": 100,
+      "wrap": false,
+      "multiline": false,
+      "attr": true
+    },
+    {
+      "role": "none",
+      "tag": "fld_seatval",
+      "text": "",
+      "x": 147,
+      "y": 2576,
+      "size": 113,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 153,
+      "wrap": true,
+      "multiline": false,
+      "shrink": true,
+      "attr": true
+    },
+    {
+      "role": "none",
+      "tag": "fld_namelbl",
+      "text": "氏名",
+      "x": 147,
+      "y": 2775,
+      "size": 74,
+      "weight": 700,
+      "color": "#757575",
+      "lh": 100,
+      "wrap": false,
+      "multiline": false,
+      "attr": true
+    },
+    {
+      "role": "none",
+      "tag": "fld_nameval",
+      "text": "",
+      "x": 147,
+      "y": 2883,
+      "size": 113,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 153,
+      "wrap": true,
+      "multiline": true,
+      "shrink": true,
+      "attr": true
+    }
+  ],
+  "attr": {
+    "top": 2468,
+    "labelGap": 108,
+    "pairGap": 199
+  }
+}

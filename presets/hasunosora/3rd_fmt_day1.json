@@ -1,0 +1,136 @@
+{
+  "name": "Live & Fan Meeting TRY TRY UNITY!!! Day 1",
+  "cw": 2000,
+  "ch": 3200,
+  "marL": 181,
+  "marR": 181,
+  "bg": "#ffffff",
+  "font": "'hiragino-kaku-gothic-pron','Hiragino Kaku Gothic ProN','Noto Sans JP'",
+  "images": [
+    {
+      "tag": "img_logo",
+      "src": "logos/hasunosora/3rd_fmt.jpg",
+      "x": 144,
+      "y": 190,
+      "w": 1739,
+      "h": 1293
+    }
+  ],
+  "fields": [
+    {
+      "role": "show",
+      "tag": "fld_show",
+      "text": "ラブライブ！蓮ノ空女学院スクールアイドルクラブ\nLive & Fan Meeting TRY TRY UNITY!!!",
+      "x": 181,
+      "y": 1563,
+      "size": 66,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 104,
+      "wrap": true,
+      "multiline": true
+    },
+    {
+      "role": "date",
+      "tag": "fld_date",
+      "text": "2024年12月21日（土）18:30",
+      "x": 181,
+      "y": 1784,
+      "size": 139,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 211,
+      "wrap": true,
+      "multiline": false
+    },
+    {
+      "role": "none",
+      "tag": "fld_times",
+      "text": "[開場] 17:30　[開演] 18:30",
+      "x": 181,
+      "y": 2193,
+      "size": 66,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 104,
+      "wrap": true,
+      "multiline": false
+    },
+    {
+      "role": "none",
+      "tag": "fld_venue",
+      "text": "両国国技館\n東京都墨田区横網1丁目3-28",
+      "x": 181,
+      "y": 2319,
+      "size": 66,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 106,
+      "wrap": true,
+      "multiline": true
+    },
+    {
+      "role": "none",
+      "tag": "fld_seatlbl",
+      "text": "座席番号",
+      "x": 181,
+      "y": 2593,
+      "size": 65,
+      "weight": 700,
+      "color": "#757575",
+      "lh": 88,
+      "wrap": false,
+      "multiline": false,
+      "attr": true
+    },
+    {
+      "role": "none",
+      "tag": "fld_seatval",
+      "text": "",
+      "x": 181,
+      "y": 2693,
+      "size": 98,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 133,
+      "wrap": true,
+      "multiline": false,
+      "shrink": true,
+      "attr": true
+    },
+    {
+      "role": "none",
+      "tag": "fld_namelbl",
+      "text": "氏名",
+      "x": 181,
+      "y": 2867,
+      "size": 65,
+      "weight": 700,
+      "color": "#757575",
+      "lh": 88,
+      "wrap": false,
+      "multiline": false,
+      "attr": true
+    },
+    {
+      "role": "none",
+      "tag": "fld_nameval",
+      "text": "",
+      "x": 181,
+      "y": 2967,
+      "size": 98,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 133,
+      "wrap": true,
+      "multiline": true,
+      "shrink": true,
+      "attr": true
+    }
+  ],
+  "attr": {
+    "top": 2593,
+    "labelGap": 100,
+    "pairGap": 174
+  }
+}

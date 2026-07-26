@@ -1,0 +1,140 @@
+{
+  "name": {
+    "ko": "6th Live! I love You ⇆ You love Me 아이치 Day 2",
+    "ja": "6th Live! I love You ⇆ You love Me 愛知 Day 2",
+    "en": "6th Live! I love You ⇆ You love Me Aichi Day 2"
+  },
+  "cw": 2000,
+  "ch": 3200,
+  "marL": 145,
+  "marR": 145,
+  "bg": "#ffffff",
+  "font": "'hiragino-kaku-gothic-pron','Hiragino Kaku Gothic ProN','Noto Sans JP'",
+  "images": [
+    {
+      "tag": "img_logo",
+      "src": "logos/nijigasaki/6th.jpg",
+      "x": 159,
+      "y": 164,
+      "w": 1676,
+      "h": 1568
+    }
+  ],
+  "fields": [
+    {
+      "role": "show",
+      "tag": "fld_show",
+      "text": "ラブライブ！虹ヶ咲学園スクールアイドル同好会\n6th Live! I love You ⇆ You love Me＜愛知公演＞",
+      "x": 145,
+      "y": 1784,
+      "size": 66,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 105,
+      "wrap": true,
+      "multiline": true
+    },
+    {
+      "role": "date",
+      "tag": "fld_date",
+      "text": "2023年12月24日（日）\n16:30",
+      "x": 145,
+      "y": 2002,
+      "size": 139,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 150,
+      "wrap": true,
+      "multiline": true
+    },
+    {
+      "role": "none",
+      "tag": "fld_times",
+      "text": "[開場] 15:00　[開演] 16:30",
+      "x": 147,
+      "y": 2320,
+      "size": 66,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 105,
+      "wrap": true,
+      "multiline": false
+    },
+    {
+      "role": "none",
+      "tag": "fld_venue",
+      "text": "Aichi Sky Expo ホールA\n愛知県常滑市セントレア5-10-1",
+      "x": 145,
+      "y": 2416,
+      "size": 66,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 104,
+      "wrap": true,
+      "multiline": true
+    },
+    {
+      "role": "none",
+      "tag": "fld_seatlbl",
+      "text": "座席番号",
+      "x": 145,
+      "y": 2615,
+      "size": 65,
+      "weight": 700,
+      "color": "#757575",
+      "lh": 88,
+      "wrap": false,
+      "multiline": false,
+      "attr": 1
+    },
+    {
+      "role": "none",
+      "tag": "fld_seatval",
+      "text": "",
+      "x": 145,
+      "y": 2715,
+      "size": 98,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 133,
+      "wrap": true,
+      "multiline": false,
+      "shrink": true,
+      "attr": 1
+    },
+    {
+      "role": "none",
+      "tag": "fld_namelbl",
+      "text": "氏名",
+      "x": 145,
+      "y": 2865,
+      "size": 65,
+      "weight": 700,
+      "color": "#757575",
+      "lh": 88,
+      "wrap": false,
+      "multiline": false,
+      "attr": 2
+    },
+    {
+      "role": "none",
+      "tag": "fld_nameval",
+      "text": "",
+      "x": 145,
+      "y": 2965,
+      "size": 98,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 133,
+      "wrap": true,
+      "multiline": true,
+      "shrink": true,
+      "attr": 2
+    }
+  ],
+  "attr": {
+    "top": 2615,
+    "labelGap": 100,
+    "pairGap": 150
+  }
+}
