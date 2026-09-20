@@ -102,6 +102,22 @@
     },
     {
       "name": {
+        "ko": "이키즈라이부!",
+        "ja": "いきづらい部！",
+        "en": "Ikizuraibu!"
+      },
+      "series": [
+        {
+          "name": "2nd LIVE Dou-Da? DOING! ~Reply to L~",
+          "presets": [
+            "ikizuraibu/2nd_day1.json",
+            "ikizuraibu/2nd_day2.json"
+          ]
+        }
+      ]
+    },
+    {
+      "name": {
         "ko": "합동 공연",
         "ja": "合同公演",
         "en": "Joint Events"

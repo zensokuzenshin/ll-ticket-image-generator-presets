@@ -1,0 +1,136 @@
+{
+  "name": "Day 1",
+  "cw": 2000,
+  "ch": 3200,
+  "marL": 155,
+  "marR": 155,
+  "bg": "#ffffff",
+  "font": "'hiragino-kaku-gothic-pron','Hiragino Kaku Gothic ProN','Noto Sans JP'",
+  "images": [
+    {
+      "tag": "img_logo",
+      "src": "logos/ikizuraibu/2nd.jpg",
+      "x": 36,
+      "y": 190,
+      "w": 1860,
+      "h": 1044
+    }
+  ],
+  "fields": [
+    {
+      "role": "show",
+      "tag": "fld_show",
+      "text": "9月19日（土）17:00公演",
+      "x": 155,
+      "y": 1401,
+      "size": 80,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 109,
+      "wrap": true,
+      "multiline": false
+    },
+    {
+      "role": "date",
+      "tag": "fld_date",
+      "text": "2026年9月19日（土）17:00",
+      "x": 155,
+      "y": 1542,
+      "size": 169,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 238,
+      "wrap": true,
+      "multiline": false
+    },
+    {
+      "role": "times",
+      "tag": "fld_times",
+      "text": "[開場] 16:00　[開演] 17:00",
+      "x": 155,
+      "y": 2007,
+      "size": 80,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 109,
+      "wrap": true,
+      "multiline": false
+    },
+    {
+      "role": "none",
+      "tag": "fld_venue",
+      "text": "京王アリーナ TOKYO\n東京都調布市西町290-11",
+      "x": 155,
+      "y": 2181,
+      "size": 80,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 131,
+      "wrap": true,
+      "multiline": true
+    },
+    {
+      "role": "none",
+      "tag": "fld_seatlbl",
+      "text": "座席番号",
+      "x": 155,
+      "y": 2447,
+      "size": 79,
+      "weight": 700,
+      "color": "#757575",
+      "lh": 109,
+      "wrap": false,
+      "multiline": false,
+      "attr": true
+    },
+    {
+      "role": "none",
+      "tag": "fld_seatval",
+      "text": "",
+      "x": 155,
+      "y": 2566,
+      "size": 120,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 140,
+      "wrap": true,
+      "multiline": false,
+      "shrink": true,
+      "attr": true
+    },
+    {
+      "role": "none",
+      "tag": "fld_namelbl",
+      "text": "氏名",
+      "x": 155,
+      "y": 2739,
+      "size": 79,
+      "weight": 700,
+      "color": "#757575",
+      "lh": 109,
+      "wrap": false,
+      "multiline": false,
+      "attr": true
+    },
+    {
+      "role": "none",
+      "tag": "fld_nameval",
+      "text": "",
+      "x": 155,
+      "y": 2852,
+      "size": 120,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 140,
+      "wrap": true,
+      "multiline": true,
+      "shrink": true,
+      "attr": true
+    }
+  ],
+  "attr": {
+    "top": 2447,
+    "labelGap": 119,
+    "pairGap": 173
+  }
+}
