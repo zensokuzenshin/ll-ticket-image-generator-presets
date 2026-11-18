@@ -133,6 +133,17 @@
             "joints/unit_koshien_2024_day1.json",
             "joints/unit_koshien_2024_day2.json"
           ]
+        },
+        {
+          "name": {
+            "ko": "LoveLive! Series 15th Anniversary 러브라이브! 페스",
+            "ja": "LoveLive! Series 15th Anniversary ラブライブ！フェス",
+            "en": "LoveLive! Series 15th Anniversary LoveLive! Fes"
+          },
+          "presets": [
+            "joints/fes_15th_day1.json",
+            "joints/fes_15th_day2.json"
+          ]
         }
       ]
     }

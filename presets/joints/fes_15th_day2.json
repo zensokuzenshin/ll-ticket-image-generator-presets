@@ -1,0 +1,136 @@
+{
+  "name": "Day 2",
+  "cw": 2000,
+  "ch": 3200,
+  "marL": 155,
+  "marR": 155,
+  "bg": "#ffffff",
+  "font": "'hiragino-kaku-gothic-pron','Hiragino Kaku Gothic ProN','Noto Sans JP'",
+  "images": [
+    {
+      "tag": "img_logo",
+      "src": "logos/joints/fes_15th.jpg",
+      "x": 410,
+      "y": 164,
+      "w": 1180,
+      "h": 1180
+    }
+  ],
+  "fields": [
+    {
+      "role": "show",
+      "tag": "fld_show",
+      "text": "11月15日（日）15:30公演",
+      "x": 155,
+      "y": 1401,
+      "size": 80,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 109,
+      "wrap": true,
+      "multiline": false
+    },
+    {
+      "role": "date",
+      "tag": "fld_date",
+      "text": "2026年11月15日（日）15:30",
+      "x": 155,
+      "y": 1542,
+      "size": 169,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 238,
+      "wrap": true,
+      "multiline": false
+    },
+    {
+      "role": "times",
+      "tag": "fld_times",
+      "text": "[開場] 13:30　[開演] 15:30",
+      "x": 155,
+      "y": 2007,
+      "size": 80,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 109,
+      "wrap": true,
+      "multiline": false
+    },
+    {
+      "role": "none",
+      "tag": "fld_venue",
+      "text": "バンテリンドーム ナゴヤ\n愛知県名古屋市東区大幸南1丁目1-1",
+      "x": 155,
+      "y": 2181,
+      "size": 80,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 131,
+      "wrap": true,
+      "multiline": true
+    },
+    {
+      "role": "none",
+      "tag": "fld_seatlbl",
+      "text": "座席番号",
+      "x": 155,
+      "y": 2447,
+      "size": 79,
+      "weight": 700,
+      "color": "#757575",
+      "lh": 109,
+      "wrap": false,
+      "multiline": false,
+      "attr": true
+    },
+    {
+      "role": "none",
+      "tag": "fld_seatval",
+      "text": "",
+      "x": 155,
+      "y": 2566,
+      "size": 120,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 140,
+      "wrap": true,
+      "multiline": false,
+      "shrink": true,
+      "attr": true
+    },
+    {
+      "role": "none",
+      "tag": "fld_namelbl",
+      "text": "氏名",
+      "x": 155,
+      "y": 2739,
+      "size": 79,
+      "weight": 700,
+      "color": "#757575",
+      "lh": 109,
+      "wrap": false,
+      "multiline": false,
+      "attr": true
+    },
+    {
+      "role": "none",
+      "tag": "fld_nameval",
+      "text": "",
+      "x": 155,
+      "y": 2852,
+      "size": 120,
+      "weight": 700,
+      "color": "#000000",
+      "lh": 140,
+      "wrap": true,
+      "multiline": true,
+      "shrink": true,
+      "attr": true
+    }
+  ],
+  "attr": {
+    "top": 2447,
+    "labelGap": 119,
+    "pairGap": 173
+  }
+}
